@@ -13,7 +13,7 @@ People who want to have a TF2 server for themselves or their friends, but don't 
 ## How to use this
 
 1. Set up a Linode account
-2. Add the contents of [stackscript.bash](https://github.com/kyleflett/TF2CloudServers/blob/main/src/main/resources/stackscript.bash) to your Linode account, use Ubuntu 22.04 & **DEDICATED not SHARED** (untested on other OS versions but I'm sure it fine)
+2. Add the contents of [stackscript.bash](https://github.com/kyleflett/TF2CloudServers/blob/main/src/main/resources/stackscript.bash) to your Linode account, use Ubuntu 22.04 & **DEDICATED not SHARED** (untested on other OS versions but I'm sure it's fine)
     - *(**Optional**)* Modify the script to change server name, password, rcon password, etc.
 3. Launch a server using the Linode UI and stackscript
 4. Connect to the server with the IP from Linode
