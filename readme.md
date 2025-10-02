@@ -13,13 +13,16 @@ People who want to have a TF2 server for themselves or their friends, but don't 
 ## How to use this
 
 1. Set up a Linode account
-2. Create an API key with read/write permissions for Linodes
-3. Add the contents of `stackscript.bash` to your Linode account, use Ubuntu 22.04 & **DEDICATED not SHARED** (untested on other OS versions but I'm sure it fine)
-    - *(Optional)* Modify the script to change server name, password, rcon password, etc.
-4. Launch a server using the Linode UI and stackscript
-    - *(Optional for power users)* Use the code example to automate server creation and deletion
-5. Connect to the server with the IP
-6. **TURN THE SERVER OFF WHEN YOU ARE DONE.** You will be charged for every hour the server is on, even if no one is using it.
+2. Add the contents of [stackscript.bash](https://github.com/kyleflett/TF2CloudServers/blob/main/src/main/resources/stackscript.bash) to your Linode account, use Ubuntu 22.04 & **DEDICATED not SHARED** (untested on other OS versions but I'm sure it fine)
+    - *(**Optional**)* Modify the script to change server name, password, rcon password, etc.
+3. Launch a server using the Linode UI and stackscript
+4. Connect to the server with the IP from Linode
+5. **TURN THE SERVER OFF WHEN YOU ARE DONE.** You will be charged for every hour the server is on, even if no one is using it.
+
+## Power Users or Devs
+- Create an API key with read/write permissions for Linodes
+- Find the Stackscript ID from the Linode UI
+- Use the example Java code to create and manage Linodes programmatically
 
 ## Additional Notes
 
