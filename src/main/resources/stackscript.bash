@@ -212,6 +212,8 @@ docker run -d --restart=no --name=tf2 \
   -e STV_PASSWORD="" \
   -e RCON_PASSWORD="" \
   -e SERVER_PASSWORD="" \
+  -e DEMOS_TF_APIKEY="" \
+  -e LOGS_TF_APIKEY="" \
   -e INGRESS_URL="$IPADDR:9000" \
   ghcr.io/melkortf/tf2-competitive
 
